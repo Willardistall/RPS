@@ -1,11 +1,42 @@
+#title {
+  text-align: center;
+  
+  
+}
+
 #choices {
   display: flex;
 }
 
-
 .choice {
-  border: 1px solid green;
-  height: 200px
-  width:  200px
+  margin: auto;
+  border: 10px solid gray;
+  border-radius: 30px;
+  /* height: 300px
+  width:  800px  */
   
+}
+
+#rocks, #papers, #scissors {
+  background-image: url('images/rock-paper-scissors.jpg');
+  background-repeat: no-repeat;
+}
+
+#rocks {
+  
+  height: 200px;
+  width: 200px;
+  background-position: -20px -10px;
+}
+
+#papers {
+  height: 200px;
+  width: 200px;
+  background-position: -225px -10px;
+}
+
+#scissors {
+  height: 200px;
+  width: 200px;
+  background-position: -435px -10px;
 }
