@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.center {
+    text-align: center;
+
+}
 .choice {
   margin: auto;
   border: 10px solid gray;
@@ -17,25 +21,39 @@
   
 }
 
-#rocks, #papers, #scissors {
+.selections {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+#player, #opponent {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+
+#rock, #paper, #scissor {
   background-image: url('images/rock-paper-scissors.jpg');
   background-repeat: no-repeat;
 }
 
-#rocks {
-  
+#rock { 
   height: 200px;
   width: 200px;
   background-position: -20px -10px;
 }
 
-#papers {
+#paper {
   height: 200px;
   width: 200px;
   background-position: -225px -10px;
 }
 
-#scissors {
+#scissor {
   height: 200px;
   width: 200px;
   background-position: -435px -10px;
